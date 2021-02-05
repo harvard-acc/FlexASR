@@ -3,7 +3,7 @@ FlexASR
 
 FlexASR is an AXI-programmable hardware accelerator for attention-based seq-to-seq networks. FlexASR can be configured to accelerate end-to-end RNN, GRU or LSTM models with attention mechanisms. It was designed in Synthesizable SystemC followed by high-level synthesis (HLS) in order to generate RTL. 
 
-<img src="images/FlexASR_Arch.png" width="1000" height="400">
+<img src="images/FlexASR_Arch.png" width="1000" height="450">
 
 # Getting Started
 

@@ -37,7 +37,7 @@ namespace spec {
       const unsigned int kNumWritePorts = 1;          // 1 write port 
       const unsigned int kNumReadPorts = 16;          // need at most 16 read ports 
       const unsigned int kNumBanks = 16;            
-      const unsigned int kEntriesPerBank = 4096;    // total global buffer size = 4096*8banks*16scalars*8bits = 8Mb = 1MB
+      const unsigned int kEntriesPerBank = 4096;    // total global buffer size = 4096*16banks*16scalars*8bits = 8Mb = 1MB
       const unsigned int kAddressWidth = nvhls::index_width<kNumBanks * kEntriesPerBank>::val;
       const unsigned int kBankIndexSize = nvhls::index_width<kNumBanks>::val;
       const unsigned int kLocalIndexSize = nvhls::index_width<kEntriesPerBank>::val;

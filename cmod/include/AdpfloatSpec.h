@@ -268,6 +268,11 @@ class AdpfloatType : public nvhls_message{
     else if (exp_tmp >= (1 << E)){
       exp = (1 << E) -1;
       man = (1 << M) -1;
+      if (in_ac_float.m < 0) {
+        sign = 1;
+      } else {
+        sign = 0;
+      }
     }
     else {
       exp = exp_tmp;

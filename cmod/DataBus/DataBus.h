@@ -168,6 +168,7 @@ SC_MODULE(PEDone) {
   }
   void SendAllDone() {
     trigger.ResetRead();
+    all_pe_done.Reset();
 
     #pragma hls_pipeline_init_interval 1    
     while(1) {

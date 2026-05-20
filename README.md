@@ -40,15 +40,11 @@ The following commands run C++ compilation and simulation of the FlexASR acceler
 
 If you find this resource useful, please consider citing the following paper:
 ```
-@inproceedings{Tambe_isscc2021,
-  title = {A 25mm2 SoC for IoT Devices with 18ms Noise Robust Speech-to-Text Latency
-           via Bayesian Speech Denoising and Attention-Based Sequence-to-Sequence
-           DNN Speech Recognition in 16nm FinFET},
-  author = {Thierry Tambe and En-Yu Yang and Glenn G. Ko and Yuji Chai
-            and Coleman Hooper and Marco Donato and Paul N. Whatmough 
-            and Alexander M. Rush and David Brooks and Gu-Yeon Wei},
-  booktitle = {International Solid-State Circuits Conference (ISSCC)},
-  year = {2021}
+@inproceedings{Tambe_jssc2023,
+  title={A 16-nm SoC for Noise-Robust Speech and NLP Edge AI Inference With Bayesian Sound Source Separation and Attention-Based DNNs}, 
+  journal={IEEE Journal of Solid-State Circuits}, 
+  author={Tambe, Thierry and Yang, En-Yu and Ko, Glenn G. and Chai, Yuji and Hooper, Coleman and Donato, Marco and Whatmough, Paul N. and Rush, Alexander M. and Brooks, David and Wei, Gu-Yeon},
+  year={2023}
 }
 ```
 FlexASR was inspired by the Simba architecture. Please also consider citing the following paper:  
